@@ -86,4 +86,5 @@ int _printf(const char *format, ...)
 
 	ret = run_printf(format, args, output);
 
-	
+	return (ret);
+}
